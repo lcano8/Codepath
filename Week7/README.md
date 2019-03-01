@@ -1,6 +1,6 @@
-# Project 7 - WordPress Pentesting
+# Project 7&8 - WordPress Pentesting
 
-Time spent: 4 hours spent in total
+Time spent: 10 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -28,6 +28,7 @@ Time spent: 4 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
+    - [Link 1] ()
   - [ ] Steps to recreate: 
   - Download mp3 file on browser (Google chrome)
   - Upload media file 
