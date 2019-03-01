@@ -20,6 +20,7 @@ Time spent: 4 hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     - [Link 2](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html1)
+ 
  2.(Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
