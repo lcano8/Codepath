@@ -12,14 +12,14 @@ Time spent: 4 hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough: 
+    - [Link 1](https://github.com/lcano8/Codepath/blob/master/Week7/Authenticated%20Stored%20Cross-Site%20Scripting%20via%20Image%20Filename.gif)
   - [ ] Steps to recreate: 
         -Download a JPG file
         -Rename file to <img src=a onerror=alert('*')>
         -After an admin clicks on the image, the result should show as a GIF.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-    - [Link 2]                 
-  (https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_fi    le_names.html1)
+    - [Link 2](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html1)
  2.(Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
