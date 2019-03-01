@@ -14,8 +14,8 @@ Time spent: 10 hours spent in total
   - [ ] GIF Walkthrough: 
     - [Link 1](https://github.com/lcano8/Codepath/blob/master/Week7/Authenticated%20Stored%20Cross-Site%20Scripting%20via%20Image%20Filename.gif)
   - [ ] Steps to recreate: 
-  - Download a JPG file (any picture)
-  - Upload file onto media tab
+  - Download a JPG file (any picture).
+  - Upload file onto media tab.
   - Rename file to <img src=a onerror=alert('*')>, fill in '' with desired result.
   - After an admin clicks on the image, the result should show as a GIF.
   - [ ] Affected source code:
@@ -28,12 +28,15 @@ Time spent: 10 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
-    - [Link 1] ()
+    - [Link 1](https://github.com/lcano8/Codepath/blob/master/Week7/Media%20File%20Metadata.gif)
   - [ ] Steps to recreate: 
-  - Download mp3 file on browser (Google chrome)
-  - Upload media file 
+  - Download mp3 file on browser (Google chrome).
+  - Upload under media file the audio file that has been downloaded.
+  - After an admin clicks on it, the result should show the javascript.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 2](https://www.securify.nl/advisory/SFY20160742/) 
+    - [Link 3](https://securify.nl/advisory/SFY20160742/xss.mp3)
 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -43,24 +46,6 @@ Time spent: 10 hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
@@ -75,7 +60,8 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+WPscan can be broad and not provide enough information to understand exploits.
+It might require additional researching to complete some of the exploitations.
 
 ## License
 
