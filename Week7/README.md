@@ -8,7 +8,7 @@ Time spent: 4 hours spent in total
 
 1. Authenticated Stored Cross-Site Scripting via Image Filename
   - [ ] Summary: Title of file image is not well sanitized.
-    - Vulnerability types:XSS
+    - Vulnerability types:Stored XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough: 
