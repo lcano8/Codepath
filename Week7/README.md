@@ -2,7 +2,7 @@
 
 Time spent: 10 hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
@@ -37,17 +37,17 @@ Time spent: 10 hours spent in total
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     - [Link 2](https://www.securify.nl/advisory/SFY20160742/) 
     - [Link 3](https://securify.nl/advisory/SFY20160742/xss.mp3)
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+3. 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS) 
+- [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-## Assets
+    - [Link 2](https://packetstormsecurity.com/files/131644)
+    ## Assets
 
 List any additional assets, such as scripts or files
 
