@@ -48,8 +48,8 @@ Time spent: 10 hours spent in total
   - Add a comment injecting javascript.
   - Administrator will view comment, and with inspect element back door can be seen.
   - [ ] Affected source code:
-    -[Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-    -[Link 2](https://packetstormsecurity.com/files/131644)
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 2](https://packetstormsecurity.com/files/131644)
     ## Assets
 
 List any additional assets, such as scripts or files
