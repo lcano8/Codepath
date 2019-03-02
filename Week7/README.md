@@ -38,18 +38,22 @@ Time spent: 10 hours spent in total
     - [Link 2](https://www.securify.nl/advisory/SFY20160742/) 
     - [Link 3](https://securify.nl/advisory/SFY20160742/xss.mp3)
 3. 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS) 
-- [ ] Summary: 
-    - Vulnerability types:
+- [ ] Summary: Adding Javascript in comments to exploit backdoor
+    - Vulnerability types: Stored XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
+  - [Link 1](https://github.com/lcano8/Codepath/blob/master/Week7/3.%204.2%20-%20Unauthenticated%20Stored%20Cross-Site%20Scripting%20(XSS)%20%20.gif)
   - [ ] Steps to recreate: 
+  - Add a comment injecting javascript.
+  - Administrator will view comment, and with inspect element back door can be seen.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-    - [Link 2](https://packetstormsecurity.com/files/131644)
+    -[Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    -[Link 2](https://packetstormsecurity.com/files/131644)
     ## Assets
 
 List any additional assets, such as scripts or files
+- [xss mp4 file](https://securify.nl/advisory/SFY20160742/xss.mp3)
 
 ## Resources
 
