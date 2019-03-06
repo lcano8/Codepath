@@ -25,7 +25,7 @@ This vulnerability can be executed by inserting {/blue/public/salesperson.php?id
 References:
 https://guides.codepath.org/websecurity/SQL-Injection
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
 ![]()
 
 
