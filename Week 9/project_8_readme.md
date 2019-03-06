@@ -1,6 +1,7 @@
 # Project 8 - Pentesting Live Targets
 
 Time spent: 12 hours spent in total
+IP:https://35.184.88.145/
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
