@@ -23,7 +23,7 @@ This vulnerability can be executed by inserting {/blue/public/salesperson.php?id
 
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/SQL%20injection.gif)
 
-References:https://guides.codepath.org/websecurity/SQL-Injection
+References:[SQL-Injection](https://guides.codepath.org/websecurity/SQL-Injection)
 
 
 Vulnerability #2: Session Hijacking/Fixation
@@ -32,10 +32,11 @@ We use the SSID from the red website to gain access to the blue website. We neve
 
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/Session%20Hijacking.gif)
 
-References: https://guides.codepath.com/websecurity/Session-Fixation
+References:[Session Fixation](https://guides.codepath.com/websecurity/Session-Fixation)
 
 
 ## Green
+
 
 Vulnerability #1: User Unemeration
 
@@ -58,12 +59,14 @@ Vulnerability #1: Insecure Direct Object reference
 The sensitive data is two user id's. We have a range from 1-11, the blue and green website do not show the last two users. 
 
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/IDOR.gif)
-References:https://guides.codepath.com/websecurity/Insecure-Direct-Object-Reference
+References:[IDOR](https://guides.codepath.com/websecurity/Insecure-Direct-Object-Reference)
 
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery
 
+The website does not check the CSRF token authenticity. The token can be change and it will still allow editing with the wrong CSRF token.
 
+![]
 ## Notes
 
 Describe any challenges encountered while doing the work
