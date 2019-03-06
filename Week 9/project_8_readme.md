@@ -16,17 +16,23 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
+
 Vulnerability #1: SQLi Injection
 
 This vulnerability can be executed by inserting {/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27} to a specific user. We can see that most of the data input received by these websites is being sanitized properly. This cannot be executed in the other websites.
 
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/SQL%20injection.gif)
 
-References:
-https://guides.codepath.org/websecurity/SQL-Injection
+References:https://guides.codepath.org/websecurity/SQL-Injection
+
 
 Vulnerability #2: Session Hijacking/Fixation
-![]()
+
+We use the SSID from the red website to gain access to the blue website. We never input our credentials for the blue website, but it still logs us in after we logging to the red website.
+
+![](https://github.com/lcano8/Codepath/blob/master/Week%209/Session%20Hijacking.gif)
+
+References: https://guides.codepath.com/websecurity/Session-Fixation
 
 
 ## Green
@@ -36,6 +42,7 @@ Vulnerability #1: User Unemeration
 The developer uses a slightly different error message for non-existent users. We see that when we try to log in with the user jmonroe99 we get the error message in bold. If we try other users their message does not show in bold. 
 
  ![](https://github.com/lcano8/Codepath/blob/master/Week%209/User%20enumaration.gif)
+
 
 Vulnerability #2: Cross-site scripting
 
@@ -52,6 +59,7 @@ The sensitive data is two user id's. We have a range from 1-11, the blue and gre
 
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/IDOR.gif)
 References:https://guides.codepath.com/websecurity/Insecure-Direct-Object-Reference
+
 
 Vulnerability #2: __________________
 
