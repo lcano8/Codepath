@@ -18,7 +18,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection
 
-
+This vulnerability can be executed by inserting {/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27} to a specific user. We can see that most of the data input received by these websites is being sanitized properly. This cannot be executed in the other websites.
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/SQL%20injection.gif)
 
 References
@@ -36,8 +36,10 @@ The developer uses a slightly different error message for non-existent users. We
  ![](https://github.com/lcano8/Codepath/blob/master/Week%209/User%20enumaration.gif)
 
 Vulnerability #2: Cross-site scripting
- ![](https://github.com/lcano8/Codepath/blob/master/Week%209/Cross-site%20scripting.gif)
 
+The site is vulnerable to a store XSS. We can insert blind xss to the feedback form. This gets activated when an administrator views the feedback. 
+ ![](https://github.com/lcano8/Codepath/blob/master/Week%209/Cross-site%20scripting.gif)
+References: https://guides.codepath.com/websecurity/Cross-Site-Scripting
 
 ## Red
 
