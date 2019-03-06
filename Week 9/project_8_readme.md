@@ -19,6 +19,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 Vulnerability #1: SQL Injection
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/SQL%20injection.gif)
 
+References
 https://guides.codepath.org/websecurity/SQL-Injection
 
 Vulnerability #2: __________________
@@ -38,7 +39,7 @@ Vulnerability #2: Cross-site scripting
 ## Red
 
 Vulnerability #1: Insecure Direct Object reference
-![]()
+![](https://github.com/lcano8/Codepath/blob/master/Week%209/IDOR.gif)
 
 Vulnerability #2: __________________
 
