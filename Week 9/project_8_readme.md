@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 12 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -47,9 +47,10 @@ The developer uses a slightly different error message for non-existent users. We
 
 Vulnerability #2: Cross-site scripting
 
-The site is vulnerable to a store XSS. We can insert blind xss to the feedback form. This gets activated when an administrator views the feedback. 
+The site is vulnerable to a stored XSS. We can insert blind xss to the feedback form. This gets activated when an administrator views the feedback. 
+
  ![](https://github.com/lcano8/Codepath/blob/master/Week%209/Cross-site%20scripting.gif)
-References: https://guides.codepath.com/websecurity/Cross-Site-Scripting
+References:[Cross-site Scripting](https://guides.codepath.com/websecurity/Cross-Site-Scripting)
 
 
 ## Red
@@ -66,8 +67,10 @@ Vulnerability #2: Cross-Site Request Forgery
 
 The website does not check the CSRF token authenticity. The token can be change and it will still allow editing with the wrong CSRF token.
 
-![]
+![](https://github.com/lcano8/Codepath/blob/master/Week%209/CSRF.gif)
+References:[CSRF](https://guides.codepath.com/websecurity/Cross-Site-Request-Forgery#csrf-post-request-attack)
 ## Notes
 
 Describe any challenges encountered while doing the work
 
+The user enumariation and IDOR challenges were simpler to complete. With some of these challenges the issue is knowing what to look for what needs to be modified.
