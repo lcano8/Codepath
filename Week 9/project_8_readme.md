@@ -16,12 +16,13 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: SQL Injection
+Vulnerability #1: SQLi Injection
 
 This vulnerability can be executed by inserting {/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27} to a specific user. We can see that most of the data input received by these websites is being sanitized properly. This cannot be executed in the other websites.
+
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/SQL%20injection.gif)
 
-References
+References:
 https://guides.codepath.org/websecurity/SQL-Injection
 
 Vulnerability #2: __________________
@@ -33,6 +34,7 @@ Vulnerability #2: __________________
 Vulnerability #1: User Unemeration
 
 The developer uses a slightly different error message for non-existent users. We see that when we try to log in with the user jmonroe99 we get the error message in bold. If we try other users their message does not show in bold. 
+
  ![](https://github.com/lcano8/Codepath/blob/master/Week%209/User%20enumaration.gif)
 
 Vulnerability #2: Cross-site scripting
@@ -41,10 +43,15 @@ The site is vulnerable to a store XSS. We can insert blind xss to the feedback f
  ![](https://github.com/lcano8/Codepath/blob/master/Week%209/Cross-site%20scripting.gif)
 References: https://guides.codepath.com/websecurity/Cross-Site-Scripting
 
+
 ## Red
 
 Vulnerability #1: Insecure Direct Object reference
+
+The sensitive data is two user id's. We have a range from 1-11, the blue and green website do not show the last two users. 
+
 ![](https://github.com/lcano8/Codepath/blob/master/Week%209/IDOR.gif)
+References:https://guides.codepath.com/websecurity/Insecure-Direct-Object-Reference
 
 Vulnerability #2: __________________
 
