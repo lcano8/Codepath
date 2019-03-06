@@ -24,7 +24,7 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: User Unemeration
-- ![] ()
+- ![](https://github.com/lcano8/Codepath/blob/master/Week%209/User%20enumaration.gif)
 
 Vulnerability #2: __________________
 
