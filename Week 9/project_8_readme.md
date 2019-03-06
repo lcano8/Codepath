@@ -29,6 +29,7 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: User Unemeration
+
 The developer uses a slightly different error message for non-existent users. We see that when we try to log in with the user jmonroe99 we get the error message in bold. If we try other users their message does not show in bold. 
  ![](https://github.com/lcano8/Codepath/blob/master/Week%209/User%20enumaration.gif)
 
