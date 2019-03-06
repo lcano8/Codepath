@@ -23,7 +23,8 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: User Unemeration
+- ![] ()
 
 Vulnerability #2: __________________
 
