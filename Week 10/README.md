@@ -11,7 +11,9 @@ A honeypot is a decoy application, server, or other networked resource that inte
     Any issues you encountered:
     Authentication issues can occur if more than one google cloud console is open. In order to avoid this issue multiple accounts or                   
     projects should not be open at the same time.
-     ![]{https://github.com/lcano8/Codepath/blob/master/Week%2010/Honeypot%20.gif}
+    
+  ![](https://github.com/lcano8/Codepath/blob/master/Week%2010/Honeypot%20.gif)
+  
      
     
    A summary of the data collected: number of attacks, number of malware samples, etc.
